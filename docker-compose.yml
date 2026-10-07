@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: swapi_user
+      POSTGRES_PASSWORD: swapi_pass
+      POSTGRES_DB: swapi
+    ports:
+      - "${DB_PORT:-5432}:5432"

@@ -1,0 +1,4 @@
+aiohttp
+asyncpg
+greenlet
+sqlalchemy[asyncio]
